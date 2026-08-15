@@ -6,7 +6,6 @@ def matrix_transpose(A):
     """
     # Write code here
     n, m = len(A), len(A[0])
-    print(n,m)
 
     A_t = [[0]*n for i in range(m)]
 
